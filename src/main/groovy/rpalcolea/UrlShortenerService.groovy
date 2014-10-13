@@ -22,6 +22,6 @@ class UrlShortenerService {
     }
 
     boolean isValid(String url) {
-        return !urlValidator.isValid(url)
+        return urlValidator.isValid(url)
     }
 }
